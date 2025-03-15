@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body class="contact-page">
+    <header class="header">
+        <div class="menu container">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+                    <li><a href="asi-funciona.html">Así funciona</a></li>
+                    <li><a href="nuestros-servicios.html">Nuestros servicios</a></li>
+                    <li><a href="contactanos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <h1>Contáctanos</h1>
+        </div>
+    </header>
+
+    <main>
+        <p>Rellena el formulario para ponerte en contacto con nosotros. Responderemos tan pronto nos sea posible.</p>
+        <form action="your-action-url" method="post">
+            <label for="nombre">NOMBRE:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">EMAIL:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="celular">CELULAR:</label><br>
+            <input type="tel" id="celular" name="celular" required><br><br>
+
+            <label for="mensaje">MENSAJE:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+            <button class="submit-btn" type="submit">Enviar</button>
+        </form>
+    </main>
+    <button class="btn" onclick="window.location.href='index.html'">Inicio</button>
+
+    <footer>
+        <ul>
+            <li>© GML Diseño de interiores. Todos los derechos reservados.</li>
+            <li>Lima, Perú</li>
+        </ul>
+    </footer>
+
+</body>
+</html>

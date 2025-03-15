@@ -1,0 +1,293 @@
+/* fuente de casi todo*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+/* fuente POPINS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+/* alt + 123  { */
+/* alt + 125  { */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* titulos */
+h1{
+    text-align: center;
+    color: #6562df;
+    font-size: 600%;
+}
+
+/* Distancia entre header y h1 */
+header h1 {
+    margin-top: 50px;
+}
+
+/* Distancia entre h1 y párrafos */
+h1 + p {
+    margin-top: 20px;
+}
+
+h1 + img {
+    margin-top: 20px;
+}
+
+
+/* headers */
+nav{
+    background-color: #404040;
+
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover{
+    background-color:#848484;
+}
+
+/* body */
+body {
+    font-family: 'Libre baskerville';
+    color: #8f8e8e;
+    font-size: 80%;
+    background-color: #fffbf4;
+}
+
+/* editanto el footer */
+
+footer {
+    background-color: #404040;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    margin: 5px 0;
+    font-size: 60%;
+}
+
+/* index.html */
+
+.centrado-negrita {
+    text-align: center;
+    font-weight: bold;
+}
+
+.izquierda-reducido {
+    text-align: left;
+    width: 45%; 
+    font-size: 400%;
+    margin-left: 5%;
+}
+
+.linea-horizontal {
+    border: none;
+    border-top: 2px solid; 
+    color: inherit; 
+    background-color: inherit; 
+    height: 1px;
+    margin: 20px 0; 
+    width: 100%; 
+} 
+
+/* sobre nosotros.html */
+body.sobre-nosotros .intro {
+    text-align: center;
+    font-size: 120%;
+    margin-bottom: 50px; 
+}
+
+body.sobre-nosotros .escaparatismo-img {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 0 auto 80px auto; 
+}
+
+
+.gino-info h2 {
+    font-size: 300%;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.gino-info h2 + p {
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+}
+
+.contenido img {
+    width: 50%; 
+    height: auto;
+}
+
+.experiencia {
+    width: 50%; 
+    margin-left: 20px; 
+    font-size: 200%
+}
+
+.peterpan-img {
+    width: 100%; 
+    height: auto; 
+}
+
+/* botones */
+.btn {
+    font-family: 'Libre baskerville';
+    display: block;
+    margin: 20px auto; 
+    background-color: #6562df;
+    font-size: 90%;
+    padding: 20px 100px; /* tamaño del botón */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; /* Esquinas redondeadas */
+}
+
+/* asi funciona.html*/
+
+main ol {
+    list-style: none; 
+    padding: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /*lista */
+}
+
+main ol li {
+    background-color: #fdd673;
+    margin: 20px auto; 
+    padding: 20px;
+    width: 30%; 
+    box-sizing: border-box; 
+    text-align: center; 
+}
+
+main ol li + p {
+    margin-bottom: 10px; 
+}
+
+main ol li + img {
+    width: 30%;
+    height: auto; 
+    display: block;
+    margin: 10px auto;
+}
+
+/* nuestros servicios.html*/
+
+body.nuestros-servicios .melamina-img {
+    width: 100%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
+
+body.nuestros-servicios .servicios-list {
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 120%; 
+    margin-top: 60px; 
+    list-style: none; 
+    padding: 0;
+}
+
+body.nuestros-servicios .servicios-list li {
+    margin: 10px 0; 
+}
+
+body.nuestros-servicios .opiniones {
+    font-size: 300%; 
+    margin-top: 80px; 
+}
+
+body.nuestros-servicios .opinion {
+    background-color: #ececec; 
+    margin: 20px auto; 
+    padding: 20px;
+    width: 70%; 
+    box-sizing: border-box; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+body.nuestros-servicios .opinion-img {
+    width: 60%; 
+    height: auto; 
+}
+
+body.nuestros-servicios .opinion-text {
+    width: 35%; 
+    font-size: 150%; 
+    margin-left: 10px; 
+}
+
+/* contactanos.html*/
+.contact-page {
+    text-align: center;
+}
+
+.contact-page p {
+    margin-bottom: 90px;
+}
+
+.contact-page label {
+    font-size: 300%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-page input, .contact-page textarea {
+    background-color: #ececec;
+    color: #8f8e8e;
+    margin-bottom: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 40%;
+    height: 150%;
+    font-size: 120%;
+}
+
+.contact-page .submit-btn {
+    background-color: #bdbcfd;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    padding: 20px 80px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
