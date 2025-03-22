@@ -108,6 +108,19 @@ footer li {
     width: 100%; 
 } 
 
+/* Ajuste para que las imágenes se adapten mejor */
+.carousel-inner img {
+    height: 400px; /* Altura máxima deseada */
+    object-fit: cover; /* Mantén proporciones y recorta el exceso */
+}
+
+@media (max-width: 768px) {
+    /* Para dispositivos móviles */
+    .carousel-inner img {
+        height: 300px; /* Ajuste de altura menor en pantallas pequeñas */
+    }
+}
+
 /* sobre nosotros.html */
 body.sobre-nosotros .intro {
     text-align: center;
