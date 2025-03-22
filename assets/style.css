@@ -37,7 +37,6 @@ h1 + img {
 /* headers */
 nav{
     background-color: #404040;
-
     list-style-type: none;
     text-align: center;
 }
@@ -50,7 +49,7 @@ nav a{
     color: white;
     text-decoration: none;
     padding: 10px;
-    width: 150px;
+    width: 200px;
 }
 
 nav li:hover{
@@ -198,6 +197,17 @@ main ol li + img {
     height: auto; 
     display: block;
     margin: 10px auto;
+}
+
+section .cajas {
+    display: grid;
+}
+
+.cajas > div {
+    background-color: #fdd673; 
+    padding: 20px; /* Espaciado interno para que el contenido no quede pegado */
+    text-align: center; /* Centrè el texto dentro de las cajas */
+    
 }
 
 /* nuestros servicios.html*/
